@@ -52,7 +52,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\Hand;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Manipulator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -91,8 +91,8 @@
     <ClCompile Include="WinLib.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Hand\Hand.vcxproj">
-      <Project>{0654a22a-16ea-4066-ac49-9408808491b0}</Project>
+    <ProjectReference Include="..\Manipulator\Manipulator.vcxproj">
+      <Project>{231fcbde-4b39-46b6-9f10-f7e99d22db8b}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

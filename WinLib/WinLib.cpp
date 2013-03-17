@@ -2,12 +2,12 @@
 //
 
 #include "stdafx.h"
-#include "Hand.h"
+#include "Manipulator.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	Hand hand;
-	hand.MouseMove(100,100);
+	Manipulator manipulator;
+	manipulator.MouseMove(100,100);
 	return 0;
 }
 
